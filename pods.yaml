@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: hshar/new
+        image: hshar/new:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
